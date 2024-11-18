@@ -114,7 +114,7 @@ public class checkLoi {
             if(input.matches("TL" + "[0-9]{3}")){
                 return input;
             }else {
-                System.err.println("Mã sai định dạng. Ví dụ: CC001");
+                System.err.println("Mã sai định dạng. Ví dụ: TL001");
             }
             System.out.print("Mời nhập lại");
         }
